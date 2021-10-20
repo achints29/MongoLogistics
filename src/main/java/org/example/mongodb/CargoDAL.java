@@ -83,7 +83,7 @@ public class CargoDAL {
      * To ensure appropriate sharding in the future, the shard key can be 
      * based on Location and HASHED _id value.
      * 
-     * 
+     * The sharding strategy of Cargo collection is critical to the scaling of the application
      */
 	boolean createCargo(String location, String destination) {
 		
