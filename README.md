@@ -77,7 +77,7 @@ The 2dsphere index is _required_ for using the $near operator in the `/cities/<n
 ```
 db.cities.createIndex( { position : "2dsphere" } )
 ```
-Note: It is possible to create this index using Mongo driverinside the application code.  However, that is a poor practice, since the application user should not have rights to create / delete indexes.
+Note: It is possible to create this index using Mongo driver within the application code.  However, that is a poor practice, since the application user should not have rights to create / delete indexes.
 
 ## Scripts for Task 3(b)
 ### Note: The minimum MongoDB version supported is 4.4
